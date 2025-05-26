@@ -1,0 +1,26 @@
+[project]
+name = "relock"
+version = "0.6.6"
+description = "Relock Sentinel - continous passive authentication engine."
+authors = [
+  { name="Marcin Sznyra", email="marcin@relock.id" },
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "License :: Other/Proprietary License",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+homepage = "https://github.com/relockid/sentinel"
+repository = "https://github.com/relockid/sentinel"
+docker = "https://hub.docker.com/r/relock/sentinel"
+
+[build-system]
+requires = ["requests>=2.31", "cryptography>=42.0.5", "setuptools"]
+build-backend = "setuptools.build_meta"
